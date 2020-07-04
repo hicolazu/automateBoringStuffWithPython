@@ -38,3 +38,7 @@ print(list(hello))
 
 print('h' in list(hello))
 print('h' not in list(hello))
+
+cat = ['fat', 'orange', 'loud']
+size, color, disposition = cat
+print(size, color, disposition)
